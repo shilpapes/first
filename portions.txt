@@ -1,0 +1,22 @@
+1. git
+
+2. mongodb
+
+3. docker
+
+4.typescript
+
+5. react , router ,json
+
+6.spring,crud and login form
+
+7.jira sprint,backlog,bug tracking
+
+8.html form
+
+9.jdbc connection
+
+10.ui/ux design
+
+
+
