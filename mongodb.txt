@@ -1,0 +1,23 @@
+create operations------>
+
+db.shree.insertOne({name:"abc",age:18,clg:"pes"})
+
+db.shree.insertMany([{name:"pqr",age:19,clg:"rv"},{name:"efg",age:20,clg:"christ"}])
+
+read operations----->
+
+db.shree.find()
+db.shree.findOne({age:18})
+sort-->
+db.shree.find().sort({age:-1})
+db.shree.find().sort({age:1})
+
+update operations----->
+
+db.shree.updateOne({age:18},{$set:{name:"xyz"}})
+db.shree.updateMany({age:18},{$set:{clg:"MIT"}})
+
+delete operations------>
+
+db.shree.deleteOne({age:18})
+db.shree.deleteMany({clg:"pes"})
